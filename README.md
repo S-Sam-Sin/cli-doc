@@ -1,9 +1,9 @@
 # cli-doc.github.io
 My personal Linux Command-Line / Bash cheat sheet.
 
-##Package Handling
+## Package Handling
 
-######All around installation.
+###### All around installation.
 Install applications from PPA ([Personal Package Archive](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)#Package_Archives)) :
 
 ![alt text](https://img.shields.io/badge/user-root-red.svg) ![alt text](https://img.shields.io/badge/user-sudo-green.svg)
@@ -44,7 +44,7 @@ Install failed :
 ```
 sudo apt --purge autoremove <failed package> && sudo dpkg --configure -a && sudo apt update && sudo aptitude install <failed package>
 ```
-######Updating application.
+###### Updating application.
 
 Updating system :
 
@@ -61,7 +61,7 @@ Troubleshoot updating:
 ```
 sudo dpkg --configure -a
 ```
-######Uninstall application.
+###### Uninstall application.
 
 Remove applications :
 
@@ -79,7 +79,7 @@ sudo apt --purge autoremove <package>
 ```
 sudo aptitude remove <package>
 ```
-##Trick & Tips
+## Trick & Tips
 
 Bypass spaces in names.
 
@@ -95,7 +95,7 @@ Become `root`:
 ```
 sudo su
 ```
-##Command-Line applications
+## Command-Line applications
 
 Ranger - File Manager
 ![alt text](./screenshots/ranger.png)
@@ -107,7 +107,7 @@ Glances - System Monitor
 ```
 sudo apt install glances
 ```
-##Deprecated Commands
+## Deprecated Commands
 
 Replaced by `apt`
 
